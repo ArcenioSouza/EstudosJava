@@ -1,0 +1,17 @@
+package DesafioMediaNotas;
+
+import java.util.Scanner;
+
+public class MediaDeNotas {
+	
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Informe a quantidade de notas que serão utilizadas: ");
+		int qtdNotas = entrada.nextInt();
+		double[] notas = new double[qtdNotas];
+		for(int i = 0; i < notas.length; i++) {
+			System.out.print("Informe a nota " + (i + 1) + ": ");
+			entrada.nextDouble();
+		}
+	}
+}
