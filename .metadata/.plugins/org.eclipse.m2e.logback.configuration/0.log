@@ -1294,3 +1294,181 @@ org.eclipse.core.runtime.CoreException: Launch configuration ExerciciosSbApplica
 2022-10-15 11:36:07,715 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-15 11:36:07,716 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-10-15 11:36:07,716 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 08:36:14,669 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-17 08:36:19,201 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:exercicios-sb:0.0.1-SNAPSHOT @ D:\ProgramacaoJava\exercicios-springboot\pom.xml.
+2022-10-17 08:36:27,562 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:36:27,562 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:36:27,577 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 08:36:27,609 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 08:36:27,616 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:36:27,616 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:36:27,616 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 08:37:41,760 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:37:41,760 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:37:41,763 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 08:37:41,777 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 08:37:41,781 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:37:41,781 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:37:41,781 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 08:44:21,515 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:44:23,789 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:44:23,790 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 08:44:23,802 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 08:44:23,806 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:44:23,806 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:44:23,806 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 08:49:30,239 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:49:30,239 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:49:30,240 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 08:49:30,247 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 08:49:30,252 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 08:49:30,253 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 08:49:30,253 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 08:57:25,795 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-17 09:00:08,776 [Worker-5: Launching exercicios-springboot] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProgramacaoJava\exercicios-springboot
+2022-10-17 09:00:08,776 [Worker-5: Launching exercicios-springboot] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always 
+2022-10-17 09:00:55,919 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2022-10-17 09:00:56,145 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2022-10-17 09:00:56,687 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2022-10-17 09:00:56,987 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2022-10-17 09:00:57,529 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2022-10-17 09:00:58,347 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2022-10-17 09:00:58,911 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2022-10-17 09:00:59,266 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2022-10-17 09:00:59,831 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar
+2022-10-17 09:01:00,352 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar
+2022-10-17 09:01:00,896 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2022-10-17 09:01:01,518 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2022-10-17 09:01:02,082 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0-sources.jar
+2022-10-17 09:01:02,546 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0-sources.jar
+2022-10-17 09:01:03,105 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2022-10-17 09:01:03,440 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2022-10-17 09:01:03,987 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.6/maven-artifact-3.8.6-sources.jar
+2022-10-17 09:01:04,274 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.6/maven-artifact-3.8.6-sources.jar
+2022-10-17 09:01:04,812 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.6/maven-builder-support-3.8.6-sources.jar
+2022-10-17 09:01:05,078 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.6/maven-builder-support-3.8.6-sources.jar
+2022-10-17 09:01:05,611 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.6/maven-compat-3.8.6-sources.jar
+2022-10-17 09:01:06,085 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.6/maven-compat-3.8.6-sources.jar
+2022-10-17 09:01:06,608 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.6/maven-core-3.8.6-sources.jar
+2022-10-17 09:01:07,209 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.6/maven-core-3.8.6-sources.jar
+2022-10-17 09:01:07,791 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.6/maven-embedder-3.8.6-sources.jar
+2022-10-17 09:01:08,117 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.6/maven-embedder-3.8.6-sources.jar
+2022-10-17 09:01:08,653 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.6/maven-model-3.8.6-sources.jar
+2022-10-17 09:01:09,071 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.6/maven-model-3.8.6-sources.jar
+2022-10-17 09:01:09,599 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.6/maven-model-builder-3.8.6-sources.jar
+2022-10-17 09:01:10,022 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.6/maven-model-builder-3.8.6-sources.jar
+2022-10-17 09:01:10,550 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.6/maven-plugin-api-3.8.6-sources.jar
+2022-10-17 09:01:10,958 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.6/maven-plugin-api-3.8.6-sources.jar
+2022-10-17 09:01:11,482 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.6/maven-repository-metadata-3.8.6-sources.jar
+2022-10-17 09:01:11,746 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.6/maven-repository-metadata-3.8.6-sources.jar
+2022-10-17 09:01:12,304 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3-sources.jar
+2022-10-17 09:01:12,752 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3-sources.jar
+2022-10-17 09:01:13,308 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.3/maven-resolver-connector-basic-1.6.3-sources.jar
+2022-10-17 09:01:13,600 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.3/maven-resolver-connector-basic-1.6.3-sources.jar
+2022-10-17 09:01:14,149 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3-sources.jar
+2022-10-17 09:01:14,564 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3-sources.jar
+2022-10-17 09:01:15,111 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.6/maven-resolver-provider-3.8.6-sources.jar
+2022-10-17 09:01:15,526 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.6/maven-resolver-provider-3.8.6-sources.jar
+2022-10-17 09:01:16,061 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3-sources.jar
+2022-10-17 09:01:16,366 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3-sources.jar
+2022-10-17 09:01:16,905 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.3/maven-resolver-transport-wagon-1.6.3-sources.jar
+2022-10-17 09:01:17,168 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.3/maven-resolver-transport-wagon-1.6.3-sources.jar
+2022-10-17 09:01:17,729 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3-sources.jar
+2022-10-17 09:01:18,162 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3-sources.jar
+2022-10-17 09:01:18,698 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.6/maven-settings-3.8.6-sources.jar
+2022-10-17 09:01:19,004 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.6/maven-settings-3.8.6-sources.jar
+2022-10-17 09:01:19,587 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.6/maven-settings-builder-3.8.6-sources.jar
+2022-10-17 09:01:20,040 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.6/maven-settings-builder-3.8.6-sources.jar
+2022-10-17 09:01:20,573 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4-sources.jar
+2022-10-17 09:01:20,983 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4-sources.jar
+2022-10-17 09:01:21,543 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2022-10-17 09:01:22,106 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2022-10-17 09:01:22,627 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2022-10-17 09:01:22,950 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2022-10-17 09:01:23,489 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0-sources.jar
+2022-10-17 09:01:23,768 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0-sources.jar
+2022-10-17 09:01:24,295 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2022-10-17 09:01:24,559 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2022-10-17 09:01:25,094 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26-sources.jar
+2022-10-17 09:01:25,425 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26-sources.jar
+2022-10-17 09:01:25,991 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0-sources.jar
+2022-10-17 09:01:26,252 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0-sources.jar
+2022-10-17 09:01:26,782 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1-sources.jar
+2022-10-17 09:01:27,246 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1-sources.jar
+2022-10-17 09:01:27,777 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.5.1/wagon-file-3.5.1-sources.jar
+2022-10-17 09:01:28,030 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.5.1/wagon-file-3.5.1-sources.jar
+2022-10-17 09:01:28,568 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.1/wagon-provider-api-3.5.1-sources.jar
+2022-10-17 09:01:28,861 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.1/wagon-provider-api-3.5.1-sources.jar
+2022-10-17 09:01:29,455 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-slf4j-provider/3.8.6/maven-slf4j-provider-3.8.6-sources.jar
+2022-10-17 09:01:29,717 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-slf4j-provider/3.8.6/maven-slf4j-provider-3.8.6-sources.jar
+2022-10-17 09:01:30,365 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1/archetype-catalog-3.2.1-sources.jar
+2022-10-17 09:01:30,651 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1/archetype-catalog-3.2.1-sources.jar
+2022-10-17 09:01:31,187 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1/archetype-common-3.2.1-sources.jar
+2022-10-17 09:01:31,607 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1/archetype-common-3.2.1-sources.jar
+2022-10-17 09:01:32,146 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1/archetype-descriptor-3.2.1-sources.jar
+2022-10-17 09:01:32,409 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1/archetype-descriptor-3.2.1-sources.jar
+2022-10-17 09:01:32,950 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1-sources.jar
+2022-10-17 09:01:33,361 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1-sources.jar
+2022-10-17 09:01:33,895 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.prefs/1.1.2/org.osgi.service.prefs-1.1.2-sources.jar
+2022-10-17 09:01:34,152 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.prefs/1.1.2/org.osgi.service.prefs-1.1.2-sources.jar
+2022-10-17 09:01:34,728 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.event/1.4.1/org.osgi.service.event-1.4.1-sources.jar
+2022-10-17 09:01:35,006 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.event/1.4.1/org.osgi.service.event-1.4.1-sources.jar
+2022-10-17 09:01:35,602 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.component.annotations/1.5.0/org.osgi.service.component.annotations-1.5.0-sources.jar
+2022-10-17 09:01:35,853 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.component.annotations/1.5.0/org.osgi.service.component.annotations-1.5.0-sources.jar
+2022-10-17 09:01:36,584 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cm/1.6.1/org.osgi.service.cm-1.6.1-sources.jar
+2022-10-17 09:01:36,840 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cm/1.6.1/org.osgi.service.cm-1.6.1-sources.jar
+2022-10-17 09:01:37,407 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.component/1.5.0/org.osgi.service.component-1.5.0-sources.jar
+2022-10-17 09:01:37,705 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.component/1.5.0/org.osgi.service.component-1.5.0-sources.jar
+2022-10-17 09:01:38,307 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.device/1.1.1/org.osgi.service.device-1.1.1-sources.jar
+2022-10-17 09:01:38,560 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.device/1.1.1/org.osgi.service.device-1.1.1-sources.jar
+2022-10-17 09:01:39,122 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.metatype/1.4.1/org.osgi.service.metatype-1.4.1-sources.jar
+2022-10-17 09:01:39,405 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.metatype/1.4.1/org.osgi.service.metatype-1.4.1-sources.jar
+2022-10-17 09:01:39,975 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.upnp/1.2.1/org.osgi.service.upnp-1.2.1-sources.jar
+2022-10-17 09:01:40,271 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.upnp/1.2.1/org.osgi.service.upnp-1.2.1-sources.jar
+2022-10-17 09:01:40,854 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.useradmin/1.1.1/org.osgi.service.useradmin-1.1.1-sources.jar
+2022-10-17 09:01:41,126 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.useradmin/1.1.1/org.osgi.service.useradmin-1.1.1-sources.jar
+2022-10-17 09:01:41,673 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.wireadmin/1.0.2/org.osgi.service.wireadmin-1.0.2-sources.jar
+2022-10-17 09:01:41,952 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.wireadmin/1.0.2/org.osgi.service.wireadmin-1.0.2-sources.jar
+2022-10-17 09:01:42,488 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4-sources.jar
+2022-10-17 09:01:42,931 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4-sources.jar
+2022-10-17 09:01:43,493 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.promise/1.2.0/org.osgi.util.promise-1.2.0-sources.jar
+2022-10-17 09:01:43,756 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.promise/1.2.0/org.osgi.util.promise-1.2.0-sources.jar
+2022-10-17 09:01:44,313 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.function/1.2.0/org.osgi.util.function-1.2.0-sources.jar
+2022-10-17 09:01:44,589 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.function/1.2.0/org.osgi.util.function-1.2.0-sources.jar
+2022-10-17 09:01:45,136 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.measurement/1.0.2/org.osgi.util.measurement-1.0.2-sources.jar
+2022-10-17 09:01:45,399 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.measurement/1.0.2/org.osgi.util.measurement-1.0.2-sources.jar
+2022-10-17 09:01:45,934 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/1.0.2/org.osgi.util.xml-1.0.2-sources.jar
+2022-10-17 09:01:46,196 [Worker-16: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.xml/1.0.2/org.osgi.util.xml-1.0.2-sources.jar
+2022-10-17 09:02:59,568 [Worker-19: Launching Executing generate-sources in D__ProgramacaoJava_exercicios-springboot] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProgramacaoJava\exercicios-springboot
+2022-10-17 09:02:59,568 [Worker-19: Launching Executing generate-sources in D__ProgramacaoJava_exercicios-springboot] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always generate-sources
+2022-10-17 09:03:19,684 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2022-10-17 09:03:23,195 [Worker-19: Launching exercicios-springboot] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProgramacaoJava\exercicios-springboot
+2022-10-17 09:03:23,195 [Worker-19: Launching exercicios-springboot] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always 
+2022-10-17 09:04:43,443 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:exercicios-sb:0.0.1-SNAPSHOT @ D:\ProgramacaoJava\exercicios-springboot\pom.xml.
+2022-10-17 09:04:46,330 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercicios-springboot/src/main/java
+2022-10-17 09:04:46,332 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exercicios-springboot/src/main/resources
+2022-10-17 09:04:46,333 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exercicios-springboot/src/main/resources
+2022-10-17 09:04:46,334 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercicios-springboot/src/test/java
+2022-10-17 09:04:46,634 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-10-17 09:04:47,070 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 09:04:47,070 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 09:04:47,071 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 09:04:47,086 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 09:04:47,092 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 09:04:47,092 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 09:04:47,092 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 09:12:42,822 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2022-10-17 09:29:31,855 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 09:29:31,855 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 09:29:31,858 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 09:29:31,865 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 09:29:31,868 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 09:29:31,868 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 09:29:31,868 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
+2022-10-17 09:30:19,495 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 09:30:19,496 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 09:30:19,496 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-17 09:30:19,504 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-17 09:30:19,507 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-17 09:30:19,507 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-17 09:30:19,507 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProgramacaoJava\exercicios-springboot\src\test\resources
