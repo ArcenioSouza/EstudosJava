@@ -2413,3 +2413,360 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-10-17 11:54:20.941
 !MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.6.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.6.Final
+!SESSION 2022-10-18 08:59:55.249 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-10-18 09:00:25.053
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-18 09:00:25.053
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-18 09:00:25.053
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-18 09:00:31.806
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Work-PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:04.698
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/FastInfoset-1.2.15.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:04.848
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/byte-buddy-1.10.2.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:13.423
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/istack-commons-runtime-3.0.7.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:13.805
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/jaxb-api-2.3.1.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:13.810
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/jaxb-runtime-2.3.1.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:14.647
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/stax-ex-1.8.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-10-18 09:07:14.649
+!MESSAGE Error building JPA file: /exercicios-jpa/libs/txw2-2.3.1.jar
+!STACK 0
+java.lang.UnsupportedOperationException: IClassFile#getType() cannot be used on an IModularClassFile
+	at org.eclipse.jdt.internal.core.ModularClassFile.getType(ModularClassFile.java:123)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.buildClassFiles(BinaryPackageFragment.java:63)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragment.<init>(BinaryPackageFragment.java:54)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.buildPackageFragments(BinaryPackageFragmentRoot.java:52)
+	at org.eclipse.jpt.common.core.internal.resource.java.binary.BinaryPackageFragmentRoot.<init>(BinaryPackageFragmentRoot.java:45)
+	at org.eclipse.jpt.jpa.core.internal.JarResourceModelProvider.buildResourceModel(JarResourceModelProvider.java:58)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildResourceModel(GenericJpaPlatform.java:146)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:140)
+	at org.eclipse.jpt.jpa.core.internal.GenericJpaPlatform.buildJpaFile(GenericJpaPlatform.java:120)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.buildJpaFile(AbstractJpaProject.java:624)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.addJpaFileMaybe_(AbstractJpaProject.java:589)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visit(AbstractJpaProject.java:349)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$InitialResourceProxyVisitor.visitProject(AbstractJpaProject.java:333)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.<init>(AbstractJpaProject.java:250)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.GenericJpaProject.<init>(GenericJpaProject.java:26)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaFactory.buildJpaProject(AbstractJpaFactory.java:177)
+	at org.eclipse.jpt.jpa.core.internal.jpa2.GenericJpaFactory2_0.buildJpaProject(GenericJpaFactory2_0.java:76)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:648)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:636)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject(InternalJpaProjectManager.java:629)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.addJpaProject(InternalJpaProjectManager.java:610)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.buildJpaProject_(InternalJpaProjectManager.java:313)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$BuildJpaProjectCommand.execute(InternalJpaProjectManager.java:306)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-10-18 09:56:25.374
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.6.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.6.Final
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-10-18 10:14:02.223
+!MESSAGE Could not get hover region due to timeout after 500 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-10-18 11:04:45.747
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.6.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.6.Final
