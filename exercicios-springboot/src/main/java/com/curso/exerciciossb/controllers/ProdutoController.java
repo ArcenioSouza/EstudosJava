@@ -1,10 +1,12 @@
 package com.curso.exerciciossb.controllers;
 
+import java.awt.print.Pageable;
 import java.util.Optional;
 
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -42,6 +44,18 @@ public class ProdutoController {
 		return produtoRepository.findAll();
 	}
 	
+	@GetMapping("/nome/{parteNome}")
+	public Iterable<Produto> buscarProdutosPorNome(@PathVariable String parteNome) {
+		return produtoRepository.findByNomeContaining(parteNome);
+	}
+	
+	@GetMapping("/pagina/{numeroPagina}/{qtdePaginas}")
+	public Iterable<Produto> obterProdutosPorPagina(@PathVariable int numeroPagina, @PathVariable int qtdePaginas){
+		if(qtdePaginas > 5) qtdePaginas = 5;
+		PageRequest pagina = PageRequest.of(numeroPagina, qtdePaginas);
+		return produtoRepository.findAll(pagina);
+	}
+	
 	@GetMapping("/{id}")
 	public Optional<Produto> buscarProdutoPorId(@PathVariable int id) {
 		return produtoRepository.findById(id);
@@ -56,5 +70,7 @@ public class ProdutoController {
 	@DeleteMapping("/{id}")
 	public void excluirProduto(@PathVariable int id) {
 		produtoRepository.deleteById(id);
+		
+		
 	}
 }
