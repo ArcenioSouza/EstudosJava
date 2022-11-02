@@ -1,11 +1,7 @@
-package br.com.alura.rh.model;
+package br.com.alura.rh.models;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.time.LocalDate;
-
-import br.com.alura.rh.ValidacaoException;
-import br.com.alura.rh.service.ReajusteService;
 
 public class Funcionario {
 
@@ -67,4 +63,7 @@ public class Funcionario {
 		this.dataUltimoReajuste = dataUltimoReajuste;
 	}
 
+	public void promover(Cargo novoCargo) {
+		this.cargo = novoCargo;
+	}
 }

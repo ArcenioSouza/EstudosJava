@@ -1,6 +1,6 @@
-package br.com.alura.rh.service;
+package br.com.alura.rh.services.reajuste;
 
-import br.com.alura.rh.model.Funcionario;
+import br.com.alura.rh.models.Funcionario;
 
 import java.math.BigDecimal;
 
